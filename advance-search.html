@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Search</title>
+        <link rel="stylesheet" href="advance-search-style.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
+            </div>
+            <nav id="main-nav">
+                <a class="nav-links" href="index.html">Google Search</a>
+                <a class="nav-links" href="image-search.html">Google Image Search</a>
+            </nav>
+        </header>
+
+        <main>
+            <div id="search-title">
+                Advance Search
+            </div>
+
+            <section id="advance-search">
+                Find pages with...
+                <form action="https://google.com/search">
+
+                    <div class="input-queries">
+                        <div class="input-query">
+                            <label for="all-words">all these words:</label>
+                            <input type="text" name="as_q" id="all-words">
+                        </div>
+                        <div class="input-query">
+                            <label for="exact-words">this exact word or phrase:</label>
+                            <input type="text" name="as_epq" id="exact-words">
+                        </div>
+                        <div class="input-query">
+                            <label for="any-words">any of these words</label>
+                            <input type="text" name="as_oq" id="any-words">
+                        </div>
+                        <div class="input-query">
+                            <label for="none-words">none of this words:</label>
+                            <input type="text" name="as_eq" id="none-words">
+                        </div>
+                        
+                        
+                        
+                    </div>
+
+                    <div id="advance-search-btns">
+                        <input type="submit" value="Advance Search">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+    </body>
+</html>
